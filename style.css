@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+} 
+/* ----------header start-------- */
+header{
+    width: 100%;
+    height: 87vh;
+    background-color: #FF900E1A;
+    ;
+    ;
+}
+.navber{
+    width: 900px;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+.nav-menu li{
+    list-style: none;
+}
+.nav-menu li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+}
+.nav-menu li a:hover{
+    text-decoration: underline;
+    border-bottom: 10px;
+    background-color: cadetblue;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: #fff;
+}
+.banar-header{
+    text-align: center;
+    padding-top: 35px;
+}
+.header-explore{
+    text-align: center;
+    padding: 20px 300px;
+}
+.header-explore small{
+    font-size: 11px;
+    color: #555;
+}
+.banar-btn{
+    text-align: center;
+}
+.common-btn{
+    padding: 6px 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: tomato;
+    color: #fff;
+}
+.banar-image img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border: 8px;
+    
+}
+.banar-image{
+    width: 900px;
+    margin: 25px auto;
+}
+/* ----------header end--------- */
+
+
+/* -----------section1 start----------- */
+
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 50px 10px;
+}
+.our-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-left: 20px;
+}
+.our-image img{
+    width: 200px;
+}
+.quick-list{
+    color: #555;
+}
+.title-s1 .features{
+    color: tomato;
+}
+.title-s1{
+    padding: 0px 200px 0px 0px;
+}
+.our-explore >small{
+    font-size: 11px;
+    padding-right: 100px;
+    display: block;
+    margin: 20px 0px;
+    color: #555;
+}
+
+
+/* /* -----------section1 end----------- * */
+
+/* /* -----------section2 start----------- * */
+
+
+
+#section2{
+    width: 900px;
+    margin: auto;
+    position: relative;
+}
+.div-s2{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.image-s2 img{
+    width: 400px;
+}
+.header-s2 h2{
+    padding: 10px 150px 10px 10px;
+    border-left: 3px solid salmon;
+}
+/* .header-s2 > small{
+   
+} */
+.s2-title-explore{
+    font-size: 11px;
+    width: 370px;
+    color: #555;
+    margin-top: 20px;
+}
+.header-s2{
+    width: 400px;
+    
+}
+.div-box{
+    width: 380px;
+    height: 70px;
+    background-color: rgb(245, 242, 242);
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 8px;
+}
+.div-box small {
+    font-size: 10px;
+    color: #555;
+}
+.experience{
+    width: 170px;
+    height: 90px;
+    background-color: tomato;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 35px;
+    color: #fff;
+    position: absolute;
+    top: 480px;
+    right: 280px;
+    
+    
+}
+.experience>p{
+    
+    font-size: 13px;
+}
+
+
+/* /* -----------section2 end----------- * */
+
+
+/* ========section3 start======= */
+
+
+#section3{
+    width: 900px;
+    margin: auto;
+    margin-top: 100px;
+}
+.s3-title{
+    width: 350px;
+}
+.s3-title >small{
+    font-size: 11px;
+    color: #555;
+
+}
+.box-card{
+    width: 150px;
+    height: 120px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 8px;
+}
+.box-card> img{
+    width: 30px;
+    height: 30px;
+    
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+/* ========section3 end======= */
+
+/* ======footer start===== */
+
+.fter-title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.fter-title h1{
+    font-weight: 900;
+}
+.fter-title small{
+    font-size: 12px;
+    color: #555;
+}
+.fter-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 70px;
+}
+.fter-image img{
+    width: 120px;
+}
+.fter-end{
+    background: #FFF4E7;
+    margin: auto;
+    width: 600px;
+    height: 50px;
+}
+.the-end {
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+    padding: 130px;
+    padding-top: 18px;
+}
